@@ -49,7 +49,7 @@ export default function Footer() {
         justify={{ base: "center", md: "space-between" }}
         align={{ base: "center", md: "center" }}
       >
-        <Text>© 2023 ⭐️ Radiant Reflections.</Text>
+        <Text>© 2023 ⭐️ Radiant Reflections | Preet Panchal.</Text>
         <Stack direction={"row"} spacing={6}>
           <SocialButton
             label={"Github"}
