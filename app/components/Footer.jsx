@@ -7,8 +7,7 @@ import {
   useColorModeValue,
   VisuallyHidden,
 } from "@chakra-ui/react";
-import { FaTwitter, FaYoutube } from "react-icons/fa";
-import { ReactNode } from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const SocialButton = ({ children, label, href }) => {
   return (
@@ -52,14 +51,17 @@ export default function Footer() {
       >
         <Text>© 2023 Thankful Thoughts.</Text>
         <Stack direction={"row"} spacing={6}>
-          <SocialButton label={"Twitter"} href={"https://twitter.com/hqasmei"}>
-            <FaTwitter />
+          <SocialButton
+            label={"Github"}
+            href={"https://github.com/preet-portfolio"}
+          >
+            <FaGithub />
           </SocialButton>
           <SocialButton
-            label={"YouTube"}
-            href={"https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA"}
+            label={"LinkedIn"}
+            href={"https://www.linkedin.com/in/preetpanchal22/"}
           >
-            <FaYoutube />
+            <FaLinkedin />
           </SocialButton>
         </Stack>
       </Container>
